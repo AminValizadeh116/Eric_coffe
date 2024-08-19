@@ -1,0 +1,126 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.category-title{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.category-title .right-category{
+    display: flex;
+}
+
+.category-title .right-category .title h2{
+    font-size: 35px;
+}
+
+.category-title .left-category{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.category-title .left-category .next-btn{
+    background-color:#f2e5da ;
+    border-radius: 14px;
+    padding: 8px;
+}
+
+.category-title .left-category .previous-btn{
+    background-color:#f2e5da ;
+    border-radius: 14px;
+    padding: 8px;
+    transform: rotate(180deg);
+}
+
+.category{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.category li svg{
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 32px 21px;
+}
+
+.category li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.off-background{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(43, 32, 32);
+    border-radius: 50px;
+    margin: 40px 300px;
+    height: 450px;
+    position: relative;
+}
+
+.off-background h2{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.off-background .off-items{
+    background-color: #f2e5da;
+    width: 650px;
+    height: 400px;
+    position: absolute;
+    top: 100px;
+    border-radius: 60px;
+}
