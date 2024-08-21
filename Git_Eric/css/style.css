@@ -75,7 +75,7 @@ table {
 }
 
 .category-title .left-category .previous-btn{
-    background-color:#f2e5da ;
+    background-color: red ;
     border-radius: 14px;
     padding: 8px;
     transform: rotate(180deg);
